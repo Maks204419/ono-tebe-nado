@@ -1,1 +1,37 @@
-/* место для вашего кода */
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 180px;
+}
+
+.header{
+  width: 100%;
+  display: grid;
+  align-items: center;
+  margin: 0 auto;
+  padding: 92px 50px;
+  grid-template-columns: 1.5fr 2fr 1.5fr;
+}
+
+.header__links-list{
+  display: flex;
+  gap: 32px;
+}
+
+.header__links-list-item{
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit{
+  list-style: none;
+}
+
+.header__link{
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.header__link_active{
+  text-decoration: none;
+}
+
