@@ -35,3 +35,9 @@ main{
   text-decoration: none;
 }
 
+.header__logo{
+  display: block;
+  justify-self: center;
+  align-self: center;
+  width: 148px;
+}
