@@ -41,3 +41,15 @@ main{
   align-self: center;
   width: 148px;
 }
+
+.header__address {
+  justify-self: end;
+  font-style: inherit;
+}
+
+.address__item {
+  display: block;
+  font-size: 18px;
+  line-height: 1.35;
+  text-underline-position: under;
+}
